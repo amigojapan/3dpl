@@ -1,0 +1,39 @@
+<pre>
+Rudimentary documentation for 3dpl
+3dpl the 3D programming langauge Copyright Usmar A. Padow (amigojapan) 2012
+
+This documentation describes the use of commands specific to 3dpl, 
+for more documentation, see http://docs.unity3d.com/Documentation/ScriptReference/ 
+Most Unity3D "JavaScript" commands should work in 3dpl, C# commands will not work in 3dpl.
+Also, most regular JavaScript commands also work in 3dpl, like for loops and while loops
+if statements function declarations and so on. There are some exceptions.
+
+commands used in declarations:
+qb(name : String,x,y,z); //create cube
+qb("mycube",0,0,0)
+cl(name : String,color_); //set a cube color
+cl("mycube",Color.green);
+commands used in update function:
+mv(name : String, x : float, y : float, z : float) //moves a cube by a certain ammount  
+mv("mycube",10.0.0);//this will move the cube by 10 to the right each frame
+mv("camera",10.0.0);//this will move the camera by 10 to the right each frame
+rt(name : String, x : float, y : float, z : float)//rotates a cube by a certain ammount
+rt("mycube",10.0.0);//this will move the cube by 10 to the right each frame
+rt("camera",10.0.0);//this will move the camera by 10 to the right each frame
+cp(name : String, x : float, y : float, z : float)//sets the position of a cube
+cp("mycube",5.5.5);//this will set the position of a cube to x=5 y=5 z=5
+cd(nameA : String, nameB : String)//Collision Detecter, returns true if first cube collides with recond cube, otherwise returns false
+if(cd("mycube1","mycube2")){//do something}//it will do something if mycube1 is colliding with mycube2
+dl(name : String)//Deletes cube
+dl("mycube");//deletes mycube
+eq(nameA : String,nameB : String)//set to equal position of a and rotation of a cube to that of the camera
+eq("mycube","camera");//this will set the position and rotation of the mycube to the position of the camera(it will no loger be visible because it is behind the camera)
+ex(name : String)//returns if cube exists or not
+if(ex("mycube")){//do something}//will do something if  the cube called mycube exists
+cs()//clear screen
+cs();//erases all cubes
+sc(name : String, x : float, y : float, z : float) {//Scale a cube
+//will document later
+an(name : String, x : float, y : float, z : float)//Change euler angle, argument must be from 0 to 360 degrees
+//document later
+</pre>
