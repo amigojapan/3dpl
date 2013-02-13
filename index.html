@@ -54,4 +54,17 @@ sc(name : String, x : float, y : float, z : float) {//Scale a cube
 
 an(name : String, x : float, y : float, z : float)//Change euler angle, argument must be from 0 to 360 degrees
 //document later
+
+Advanced stuff:
+
+//Example of how to use classes in 3dpl
+
+class myclass {
+    var color;
+}
+myinstance = new myclass();
+myinstance.color=Color.green;
+qb("a",0,0,0);
+cl("a",myinstance.color);
+
 </pre>
