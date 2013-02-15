@@ -16,9 +16,11 @@ qb("mycube",0,0,0)
 cl(name : String,color_); //set a cube color
 cl("mycube",Color.green);
 
-vars[number]=value;//sets a variable
-vars[0]=5;//sets the first variable to 5
-vars[1]="my name is Usmar";//sets the second variable to "my name is Usmar"
+Variables, regular variables can be used, but if you want to pass a variable from
+Declarations to Update function, you will need to use the vars "hash"
+vars["myvariablename"]=value;//sets a variable
+vars["x"]=5;//sets variable x to 5
+vars["a"]="my name is Usmar";//sets the a variable to "my name is Usmar"
 variables written in this way can be accessed in the update function as well
 
 commands used in update function:
