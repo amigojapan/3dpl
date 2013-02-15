@@ -58,7 +58,7 @@ an(name : String, x : float, y : float, z : float)//Change euler angle, argument
 Advanced stuff:
 
 //Example of how to use classes in 3dpl
-
+//Declarations:
 class myclass {
     var color;
 }
@@ -66,5 +66,15 @@ myinstance = new myclass();
 myinstance.color=Color.green;
 qb("a",0,0,0);
 cl("a",myinstance.color);
+
+//Example that gets an object instance from declarations into update
+//Declarations:
+class Test{ 
+        var xspeed=5;
+}
+vars["myobj"]= new Test();
+qb("a",0,0,0);
+//Update Function:
+mv("a",vars["myobj"].xspeed,0,0);
 
 </pre>
