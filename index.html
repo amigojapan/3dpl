@@ -1,83 +1,37 @@
-<pre>
-Rudimentary documentation for 3dpl
-3dpl the 3D programming langauge Copyright 2012 Usmar A. Padow (amigojapan) usmpadow@gmail.com
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<head>
+<style type="text/css">
+	#sidebar{ float: left; background: #ccc;  width: 120px; margin-bottom: -1000px; padding-bottom: 1000px; }
+	#content { padding-left: 10px; background: #eee; margin-left: 120px; margin-bottom: -1000px; padding-bottom: 1000px; }
+</style>
+</head>
+<div id="sidebar">
+Stuff on Wiki<br>
+<a href=https://github.com/amigojapan/3dpl/wiki/downloads>Downloads</a><br>
+<a href=https://github.com/amigojapan/3dpl/wiki/docs>Documentation</a><br>
+</div>
 
-This documentation describes the use of commands specific to 3dpl, 
-for more documentation, see <a href=http://docs.unity3d.com/Documentation/ScriptReference/>http://docs.unity3d.com/Documentation/ScriptReference/</a> 
-Most Unity3D "JavaScript" commands should work in 3dpl, C# commands will not work in 3dpl.
-Also, most regular JavaScript commands also work in 3dpl, like for loops and while loops
-if statements function declarations and so on. There are some exceptions.
-
-commands used in declarations:
-
-qb(name : String,x,y,z); //create cube
-qb("mycube",0,0,0)
-
-cl(name : String,color_); //set a cube color
-cl("mycube",Color.green);
-
-Variables, regular variables can be used, but if you want to pass a variable from
-Declarations to Update function, you will need to use the vars "hash"
-vars["myvariablename"]=value;//sets a variable
-vars["x"]=5;//sets variable x to 5
-vars["a"]="my name is Usmar";//sets the a variable to "my name is Usmar"
-variables written in this way can be accessed in the update function as well
-Note: Named variables only available in the new binaries since 2013/02/15 17:50 Japan Time
-
-commands used in update function:
-
-mv(name : String, x : float, y : float, z : float) //moves a cube by a certain ammount  
-mv("mycube",10.0.0);//this will move the cube by 10 to the right each frame
-mv("camera",10.0.0);//this will move the camera by 10 to the right each frame
-
-rt(name : String, x : float, y : float, z : float)//rotates a cube by a certain ammount
-rt("mycube",10.0.0);//this will move the cube by 10 to the right each frame
-rt("camera",10.0.0);//this will move the camera by 10 to the right each frame
-
-cp(name : String, x : float, y : float, z : float)//sets the position of a cube
-cp("mycube",5.5.5);//this will set the position of a cube to x=5 y=5 z=5
-
-cd(nameA : String, nameB : String)//Collision Detecter, returns true if first cube collides with recond cube, otherwise returns false
-if(cd("mycube1","mycube2")){//do something}//it will do something if mycube1 is colliding with mycube2
-
-dl(name : String)//Deletes cube
-dl("mycube");//deletes mycube
-
-eq(nameA : String,nameB : String)//set to equal position of a and rotation of a cube to that of the camera
-eq("mycube","camera");//this will set the position and rotation of the mycube to the position of the camera(it will no loger be visible because it is behind the camera)
-
-ex(name : String)//returns if cube exists or not
-if(ex("mycube")){//do something}//will do something if  the cube called mycube exists
-
-cs()//clear screen
-cs();//erases all cubes
-
-sc(name : String, x : float, y : float, z : float) {//Scale a cube
-//will document later
-
-an(name : String, x : float, y : float, z : float)//Change euler angle, argument must be from 0 to 360 degrees
-//document later
-
-Advanced stuff:
-
-//Example of how to use classes in 3dpl
-//Declarations:
-class myclass {
-    var color;
-}
-myinstance = new myclass();
-myinstance.color=Color.green;
-qb("a",0,0,0);
-cl("a",myinstance.color);
-
-//Example that gets an object instance from declarations into update
-//Declarations:
-class Test{ 
-        var xspeed=5;
-}
-vars["myobj"]= new Test();
-qb("a",0,0,0);
-//Update Function:
-mv("a",vars["myobj"].xspeed,0,0);
-
-</pre>
+<div id="content">
+<h1>3dpl (3D Programming Language) official site.</h1>
+<BR><h3>By Copyright 2012 Usmar A. Padow (amigojapan) usmpadow@gmail.com</h3>
+<a href="http://imgur.com/eG3BxRG"><img src="http://i.imgur.com/eG3BxRG.jpg" title="Hosted by imgur.com" alt="" /></a>
+<BR>An educational language on Unity3d's JS for new programmers to learn programming and 3D game programming at the same time, and while having fun!
+It includes 18 tutorials, which include how to make a simple cube how to color the cubes how to make 3D brakeout(arkanoid) and how to make a 3D space first person shooter and how to make a 3D fist person Platform game.
+Also you can upload your programs to the (cloud server, still in development stage) and enjoy a huge library of programs made by other users!(when this feature becomes available)
+<BR>
+<BR>Major Update!!! 3dpl Beta 1
+<BR>Updates include:
+<BR>Debug information
+<BR>Maximizeing/Minimizing the code window
+<BR>Example 18 A Fist peron 3D platformer
+<BR>Proper Load and Save dIalogs
+<BR>MessageBox
+<BR>InputBox
+<BR>Camera collision detection with cubes
+<h2>Videos of 3dpl(watch in full screen so you can read the code)</h2>
+<iframe width="420" height="315" src="http://www.youtube.com/embed/2wSMScV-oJk" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="http://www.youtube.com/embed/OBcpj838ZNw" frameborder="0" allowfullscreen></iframe>
+<BR>
+<BR>Official IRC channel #3dpl on irc.freenode.net
+</div>
