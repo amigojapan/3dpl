@@ -1,0 +1,6 @@
+//Do until loops (checks the condition at the end of the loop)
+vars["a"]=0;
+do {
+  vars["a"]=vars["a"]+1;
+  qb("Cubes",vars["a"],0,0);
+} while (vars["a"]!=4);//!= means not equals
