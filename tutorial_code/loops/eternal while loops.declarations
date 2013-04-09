@@ -1,10 +1,0 @@
-//forever loops in scratch is while(ture){} in 3dpl
-vars["a"]=0;
-while(true) {
-  vars["a"]=vars["a"]+1;
-  if(vars["a"]==4) {
-    break;
-  }else{
-    qb("Cubes",vars["a"],0,0);
-  }
-}
