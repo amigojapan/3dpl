@@ -1,162 +1,233 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<head>
-<script type="text/javascript">
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <script src="3dpl%20%E2%80%94%20The%203D%20Programming%20Language_files/ga.js" async="" type="text/javascript"></script><script type="text/javascript">
+              var _gaq = _gaq || [];
+              _gaq.push(['_setAccount', 'UA-21132921-12']);
+              _gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-21132921-12']);
-  _gaq.push(['_trackPageview']);
+              (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+              })();
+        </script>
+        
+        <title>3dpl ge (3DPL Gamming Environment) official site. Copyright 2012 Usmar A. Padow (amigojapan) usmpadow@gmail.com</title>
+        <link rel="stylesheet" type="text/css" href="files/styles.css">
+    </head>
+    <body>
+        <h1>3D Pogramming Language Gamming Environment.</h1>
+        <div id="navbar">
+            <!--<span class="title">On The Wiki</span>-->
+            <a href="https://github.com/amigojapan/3dpl/wiki/downloads">Download 3dpl</a>
+            <a href="https://github.com/amigojapan/3dpl/wiki/docs">Documentation</a>
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+            <!--<span class="title">On This Page</span>-->
+            <a href="#videos">Video intro to 3dpl</a>
+            <a href="#advice">Advice to New Programmers</a>
+            <a href="#loops">Loop Tutorials</a>
+            <a href="#news">News</a>
+            <a href="#linux">Linux Support</a>
+            
+            
+            <!--<span class="title">The 3dpl Community</span>-->
+            <a href="#irc">IRC Live Chat</a>
+            <a href="https://groups.google.com/forum/?fromgroups#%21forum/3dpl">3dpl Forum</a>
+            <a href="#team">The Team</a>
+        </div>
 
-</script>
-<title>3dpl ge (3DPL Gamming Environment) official site. Copyright 2012 Usmar A. Padow (amigojapan) usmpadow@gmail.com</title>
-<style type="text/css">
-	#sidebar{ float: left; background: #ccc;  width: 140px; margin-bottom: -1000px; padding-bottom: 1000px; }
-	#content { padding-left: 10px; background: #eee; margin-left: 140px; margin-bottom: -1000px; padding-bottom: 1000px; }
-</style>
-</head>
-<div id="sidebar">
-Stuff on Wiki
-<br>
-<a href=https://github.com/amigojapan/3dpl/wiki/downloads>Download Beta 3.0</a><br>
-<br>
-<a href=https://github.com/amigojapan/3dpl/wiki/docs>Documentation</a><br>
-<br>
-Stuff on this page
-<br>
-<a href=#Advice_to_novice_programmers>Advice to novice programmers</a><br>
-<br>
-<a href=#news>News</a><br>
-<br>
-Video tutorials
-<BR>
-<a href=#videos>Intro to 3dpl</a><br>
-<br>
-<a href=#loops>Loops</a><br>
-<br>
-<a href=https://groups.google.com/forum/?fromgroups#!forum/3dpl
->3dpl forum</a><br>
-<br>
-<a href=#IRC>IRC live chat</a><br>
-<br>
-<a href=#Collaborators>List of collaborators</a><br>
-</div>
+        <div id="content">
+            <h3>About 3dpl</h3>
+            <span class="side-pic">
+                <img src="files/screenshot2.png" title="3dpl" alt="3dpl screenshot" width="500">
+            </span>
+            <p>3dpl is an educational real-time interpreted language 
+based on Unity3d's JS. It is intended for new programmers to learn 
+programming — specifically 3D game programming — while at the same time 
+having fun!
+            It includes many tutorials, which include: how to make a 
+simple cube, how to color the cube, how to make 3D breakout (i.e. 
+Arkanoid), how to make a 3D space first-person shooter, and how to make a
+ 3D first person platforming game, and a Car Simulator and Helicopter Flight Simulator.
+            Eventually it will be possible to upload programs to the 
+cloud server and download those programs uploaded by other users, but 
+this feature is still incomplete and disabled.</p>
+            
+            <h3 id="videos">Videos of 3dpl (watch in full screen so you can read the code)</h3>
+		    <iframe width="560" height="315" src="http://www.youtube.com/embed/otB4ZJkRAdg" frameborder="0" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/eecYKrTqHUU" frameborder="0" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/yesmZmtODqk" frameborder="0" allowfullscreen></iframe>
+			<iframe width="420" height="315" src="http://www.youtube.com/embed/2wSMScV-oJk" frameborder="0" allowfullscreen></iframe>
+        
+            <h3 id="loops">Loop Tutorials in MIT Scratch and 3dpl</h3>
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/YFaoRyxrUhM" frameborder="0" allowfullscreen></iframe>
+            <p>Click <a href="http://beta.scratch.mit.edu/projects/10060480/#player">here</a> to open the Scratch project in Flash</p>
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/X11euX27NqY" frameborder="0" allowfullscreen></iframe>
+			<p>The loops tutorial files are now included in the 3dpl distribution.</p>
 
-<div id="content">
-<h1>3dpl ge (3DPL Gamming Environment) official site.</h1>
-<BR><h3>Copyright 2012 Usmar A. Padow (amigojapan) <a href="mailto:usmpadow@gmail.com?subject=About 3dpl">usmpadow@gmail.com</A></h3>
-<a href="http://imgur.com/HwwMARQ"><img src="http://i.imgur.com/HwwMARQ.png" title="Hosted by imgur.com" alt="" /></a>
-<BR>An educational real-time interpreted language. Think of it as "programmable minecraft". It is based on Unity3d's JS for new programmers to learn programming and 3D game programming at the same time, and while having fun!
-It includes 18 tutorials (and even more example programs), which include how to make a simple cube how to color the cubes how to make 3D breakout(arkanoid) and how to make a 3D space first person shooter and how to make a 3D fist person Platform game, and a Car Simulator and Helicopter Flight Simulator.
-Also you can upload your programs to the (cloud server, still in development stage) and enjoy a huge library of programs made by other users!(when this feature becomes available).
-<BR>
-</span>
-<span id=videos>
-<h2>Videos of 3dpl(watch in full screen so you can read the code)</h2>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/otB4ZJkRAdg" frameborder="0" allowfullscreen></iframe>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/eecYKrTqHUU" frameborder="0" allowfullscreen></iframe>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/yesmZmtODqk" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="http://www.youtube.com/embed/2wSMScV-oJk" frameborder="0" allowfullscreen></iframe>
-<!-- Old videos
-<iframe width="420" height="315" src="http://www.youtube.com/embed/OBcpj838ZNw" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="http://www.youtube.com/embed/l7bi6RXEEzQ" frameborder="0" allowfullscreen></iframe>
-<iframe width="420" height="315" src="http://www.youtube.com/embed/s7zkp7ixHw0" frameborder="0" allowfullscreen></iframe>
--->
-<span id=loops>
-<h3>Loops video tutorials in scratch and 3dpl</h3>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/YFaoRyxrUhM" frameborder="0" allowfullscreen></iframe>
-<a href=http://beta.scratch.mit.edu/projects/10060480/#player>Click here to open the scratch project in flash</a>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/X11euX27NqY" frameborder="0" allowfullscreen></iframe>
-<a href=https://github.com/amigojapan/3dpl/tree/master/tutorial_code/loops>Click here to get the files for the 3dpl loops tutorial</a>
-</span>
-</span>
+            
+            <h3 id="advice">A word of advice to novice programmers</h3>
+            <p>Many of us seasoned programmers started with BASIC and 
+LOGO, simple programming languages where you could type a few commands 
+and get results. They were fun.
+            The debate today between programmers is "what programming 
+language should I learn first?" The answer to this question is, of 
+course, a matter of opinion.
+            Answers range from C++ (a very difficult language) to Python
+ (a rather easy language).</p>
+            <p>Of course, programming comes easier to some than others. 
+Usually I would recommend starting with Python for a regular person of 
+high intelligence.
+            But I have come across some people that really can't seem to
+ grasp the very basics of programming. for such people, I recommend the 
+following:
+            First learn <a href="http://scratch.mit.edu/">Scratch</a>, which is a programming language made by MIT. It is so simple that even kids can enjoy it, and has a (beta) <a href="http://beta.scratch.mit.edu/projects/editor/">Flash version</a>.
+ Then learn my 3D programming language. It has more advanced concepts 
+than Scratch and LOGO, such as C style loops, functions, and classes, 
+but it is still simple to learn and fun. 
+            Then learn <a href="http://www.python.org/">Python</a>. it is a general purpose language that will allow you to do many tasks. I recommend <a href="http://www.pygame.org/">the Pygame library</a> once you have finished the <a href="http://docs.python.org/2/tutorial/">Python tutorial</a>, as this will allow you to make fun graphical games in Python. 
+            After this, you should be able to learn any other programming language out there.</p>
+            <p>If you find that any of these languages seem too easy for
+ you, then skip to the next one, but do try starting with Scratch, then 
+3dpl, then Python, and then whatever language or languages you want.</p>
+            <p>Also it is very important that you study on your own. It 
+is never enough to just study what your school tells you to! It is even 
+good to study languages other than those your school teaches.</p>
+            
+			<span class="title">Apr 15 2013, 3dpl ge Beta 3.1 is out</span>
+			Features:
+			<ul>
+                <li>Added Audio/Music and Sound functions. See documentation for details on how to use it.
+                <li>Helicopet Flight Simulator 3 and Car Simulator 5 now have music and sound effects
+                <li>Added many audio test programs, they demonstrate how sound should work.
+                <li>Added Functions to change the sky. See documentation for details on how to use it.
+                <li>Put about button on main menu.
+            </ul>                
+			Noticed a small bug after uploading teh binary. it displays that the version is Beta 3.0, but it is really 3.1. also shows the \n new line characters in the about box. I will fix this on the next release.
+            <h3 id="news">News</h3>
+			<span class="title">Mar 30 2013, 3dpl ge Beta 3.0 is out, this is a Major Update!!!</span>
+			Features:
+			<ul>
+                <li>Map editor. Allows you to make Map terrains using Objects made in the Object editor.
+                <li>There is a beutiful map of "Fox city".
+                <li>Made a car driving simulator program. Goes around Fox city.
+                <li>Made a helicopter flight simulator program. Goes around Fox city.
+                <li>There is a partially made example of how to make a game like Doom in 3dpl (DUNGEON 3).
+                <li>Map() function to render maps made in the map editor.
+                <li>A teleport option that also displays the current X Y and Z of the camera.
+                <li>You can now save Objects in obj format (it is faster than XML).
+                <li>Obj() function to render obj objects.
+                <li>Can now import and export to XML.
+                <li>Made a main menu that allows you to access the seperate parts of 3dpl ge.
+                <li>The program in now devided into 3 parts, Game Mode, for Users that just want to play games(Not available yet), Creative mode. for artists to make Objects and Maps, Programming mode for developers.
+                <li>sr() function, that sets the rotation of an object in degrees.
+                <li>Collider block collision detection, and 2 functions that handle that (see documentation for details).
+                <li>Now there are seperate folders for Programs, Objects, Textures and Maps.
+            </ul>    
+                Bug fixes:
+            <ul>
+                <li>Much improvement in the usability of the Object Editor. too many features to go into detail. Just try it now!
+            </ul>
 
-<BR><span id=Advice_to_novice_programmers><h3>A word of advice to novice programmers</h3></span>
-<BR>Many of us seasoned programmers started with BASIC and LOGO, simple programming languages where you could type a few commands and get results. it was fun.
-The debate today between programmers is "What programming language should I learn first?", how to answer this question is a matter of opinion.
-The answers range from Start with C++(a very difficult language) to python(a rather easy language).
-Ofcourse, programming comes easier to some than others. Usually I would recommed starting with python for a regular person who can easily grasp difficult concepts quickly.
-But I have come across some people that really can't seem to grasp the very basics of programming. for such people, I recommend the following:
-First learn <a href=http://scratch.mit.edu/>scratch</a> , which is a programming language made by MIT(you can now use <a href=http://beta.scratch.mit.edu/projects/editor/>scratch in a flash application</a>(it is still in beta testing)), and it is so simple that even kids can enjoy it. 
-then learn my 3D programming language. It has more advanced concepts than scratch (like C style loops and functions, and classes) but it is still simple to learn and fun. Then learn <a href=http://www.python.org/>python</a>. it is a general purpose language that will allow you to do many tasks, I recommend <a href=http://www.pygame.org/>the pygame library</a> once you have finished the
-<a href=http://docs.python.org/2/tutorial/>python tutorial</a>(this will allow you to make fun games in python). After this, you should be able to learn any other programming langauge out there.
-<BR>If you find that any of these languages seem too easy for you, then skip to the next one, but try staring from scratch, then 3dpl, then python then whatever language you want.
-<BR>Also it is very important that you self study. it is never enough to just study what your school tells you to study!  even other languages that your school does not teach.
-<BR>
-<BR>
-<span id=news>
-<BR><h3>News:</h3>
-<BR>*Mar 30 2013, 3dpl Beta 3.0 is out, this is a Major Update!!!
-<BR>Features:
-<BR>Map editor. Allows you to make Map terrains using Objects made in the Object editor.
-<BR>There is a beutiful map of "Fox city".
-<BR>Made a car driving simulator program. Goes around Fox city.
-<BR>Made a helicopter flight simulator program. Goes around Fox city.
-<BR>There is a partially made example of how to make a game like Doom in 3dpl (DUNGEON 3).
-<BR>Map() function to render maps made in the map editor.
-<BR>A teleport option that also displays the current X Y and Z of the camera.
-<BR>You can now save Objects in obj format (it is faster than XML).
-<BR>Obj() function to render obj objects.
-<BR>Can now import and export to XML.
-<BR> Made a main menu that allows you to access the seperate parts of 3dpl ge.
-<BR>The program in now devided into 3 parts, Game Mode, for Users that just want to play games(Not available yet), Creative mode. for artists to make Objects and Maps, Programming mode for developers.
-<BR>sr() function, that sets the rotation of an object in degrees.
-<BR>Collider block collision detection, and 2 functions that handle that (see documentation for details).
-<BR>Now there are seperate folders for Programs, Objects, Textures and Maps.
-<BR>Bug fixes:
-<BR>Much improvement in the usability of the Object Editor. too many features to go into detail. Just try it now!
-<BR>*Mar 18 2013, 3dpl Beta 2.3 is out:
-<BR>Important bug fix!: Fixed bug in Unique ID for the cubes that was causing some cubes to have the same unique IDs.
-<BR>Added feature: Allowed for some specific optional collision detetion inside the Object Editor.
-<BR>*Mar 16 2013, 3dpl Beta 2.2 is out, Added many new fatures:
-<BR>Now you can move the cursor and the camera using the mouse!
-<BR>You can roll the camera
-<BR>You can stabalize the camera when it is facing a weird angle
-<BR>*Mar 15 2013, 3dpl Beta 2.1 is out, Fixed some major bugs with the Object Editor.
-<BR>Colors are now handled properly, you can turn off the guide
-<BR>New feature: Teleport to point of origin 
-<BR>*Mar 8 2013, 3dpl Beta 2.0 is out, this is a Major Update!!!
-<BR>New features:
-<BR>Object editor, so you dont need to write code to make objects that are composed of many blocks.
-<BR>Textures (put pictures on your blocks) You can tile the same picture on every side of the cube, or draw 6 pictures for each side of the cube to have a different image
-<BR>Alpha channel support (transparent blocks)
-<BR>*Mar 1 2013, Beta 1.2 out, Corrected bug in collision detection
-<BR>*Feb 28 2013, Beta 1.1 out, Added support for alpha channel changes (transparent cubes)
-<BR>*Feb 25 2013, Added first loops video tutorial (more video tutorials to come!)
-<BR>*Feb 23 2013 Major Update!!! 3dpl Beta 1
-<BR>Updates include:
-<BR>Debug information
-<BR>Maximizeing/Minimizing the code window
-<BR>Example 18 A Fist peron 3D platformer
-<BR>Proper Load and Save dialogs
-<BR>MessageBox
-<BR>InputBox
-<BR>Camera collision detection with cubes
-<BR>
-<span id=IRC>
-<BR>Official IRC channel #3dpl on irc.freenode.net <a href=http://webchat.freenode.net?randomnick=1&channels=3dpl&uio=d4>Click here to connect from web browser</a>
-</span>
-<BR>
-<BR> Known bugs: I have gotten reports from some Linux users that the text in the buttons and other controls does not
-appear. I have filed a bug report to Unity3d's staff... they replied that they currently only support Ubuntu 10.10. and the person
-that gave me a report on the problem is using ArchLinux. I would appreciate it if you could tell me what versions of Linux you have run it on
-and if it was successful or unsuccesful. so I can add this to the list for other users.
-<BR>Does work on:
-<BR>Ubuntu 10.10 (especially supported by unity)
-<BR>Linux Mint (unknown version)
-<BR>Does not work on:
-<BR>Mandriva 11.0
-<BR>ArchLinux (unknown version)
-<BR>
-<span id=Collaborators>
-<BR>Collaborators:
-<BR>Usmar A Padow(main developer and project manager)
-<BR>Greg Cox
-<BR>Patick Robotham
-</span>
-</div>
+            <span class="title">March 18, 2013 — 3dpl Beta 2.3 released</span>
+            <ul>
+                <li>Important bug fix: fixed bug in Unique ID for the cubes that was causing some cubes to have the same unique IDs.</li>
+                <li>Added feature: allowed for some specific optional collision detetion inside the Object Editor.</li>
+            </ul>
+            
+            <span class="title">March 16, 2013 — 3dpl Beta 2.2 released</span>
+            Many new features:
+            <ul>
+                <li>Now you can move the cursor and the camera using the mouse!</li>
+                <li>You can roll the camera</li>
+                <li>You can stabilize the camera when it is facing in a weird angle</li>
+            </ul>
+            
+            <span class="title">March 15, 2013 — 3dpl Beta 2.1 released</span>
+            Fixed some major bugs with the Object Editor:
+            <ul>
+                <li>Colors are now handled properly, you can turn off the guide</li>
+                <li>New feature: Teleport to point of origin</li>
+            </ul>
+            
+            <span class="title">March 8, 2013 — 3dpl Beta 2.0, another major update!</span>
+            New features:
+            <ul>
+                <li>Object editor — you no longer need to write code to make objects that are composed of many blocks.</li>
+                <li>Textures — you can now put pictures on your blocks. 
+You can tile the same picture on every side of the cube or draw 6 
+pictures so that each side of the cube has a different image.</li>
+                <li>Alpha channel support — you can now make your blocks transparent</li>
+            </ul>
+            
+            <span class="title">March 1, 2013 — Beta 1.2 released</span>
+            <ul>
+                <li>Corrected bug in collision detection</li>
+            </ul>
+            
+            <span class="title">February 28, 2013 — Beta 1.1 released</span>
+            <ul>
+                <li>Added support for alpha channel changes (transparent cubes)</li>
+            </ul>
+            
+            <span class="title">February 25, 2013</span>
+            <ul>
+                <li>Added first loops video tutorial (more video tutorials to come!)</li>
+            </ul>
+            
+            <span class="title">February 23, 2013 — a major update, 3dpl Beta 1</span>
+            Updates include:
+            <ul>
+                <li>Debug information</li>
+                <li>Maximizing/Minimizing the code window</li>
+                <li>Example 18 — A first person 3D platformer</li>
+                <li>Proper Load and Save dialogs</li>
+                <li>MessageBox</li>
+                <li>InputBox</li>
+                <li>Camera collision detection with cubes</li>
+            </ul>
+                        
+            <h3 id="irc">Official IRC channel</h3>
+            <p>The official 3dpl channel is #3dpl on irc.freenode.net. Click <a href="http://webchat.freenode.net/?randomnick=1&amp;channels=3dpl&amp;uio=d4">here</a> to access from your web browser, or download an IRC client.</p>
+            
+            <h3 id="linux">Linux Support</h3>
+            <p>I have received reports from some Linux users that the 
+text in the buttons and other controls does not appear. In response to 
+the bug reports filed, Unity3D noted that their software only support 
+Ubuntu 10.10 at this time. ArchLinux and other Linuxes are not 
+officially supported.</p>
+            <p>The following list is not very complete, so all 
+information on which Linuxes 3dpl works on and which ones it does not 
+work on will be appreciated.</p>
+            3dpl is known to work on:
+            <ul>
+                <li>Ubuntu 10.10 (officially supported by Unity3D)</li>
+                <li>Linux Mint (unknown version)</li>
+            </ul>
+            3dpl is known to not work on:
+            <ul>
+                <li>Mandriva 11.0</li>
+                <li>ArchLinux (unknown version)</li>
+            </ul>
+            3dpl seems to partially work on these Linuxes, with some glitches:
+            <ul>
+                <li>Debian</li>
+            </ul>
+            
+            <h3 id="team">The 3dpl team</h3>
+            <ul>
+                <li>Usmar A Padow (main developer and project manager)</li>
+                <li>Greg Cox (Contributed to program)</li>
+                <li>Patrick Robotham (Contributed to program)</li>
+                <li>Kindland (who though does not want recognition has been the artist)</li>
+                <li>Daniel Foerster (Designed this web site)</li>
+            </ul>
+        </div>
+        
+        <div id="footer">
+            © 2012-2013 <a href="mailto:usmpadow@gmail.com?subject=About%203dpl">Usmar A. Padow</a> (amigojapan)
+        </div>
+    
+
+</body></html>

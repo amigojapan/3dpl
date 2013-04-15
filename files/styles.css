@@ -1,0 +1,125 @@
+html {
+    color: #161616;
+    background: #eee7ec;
+    /*background: #9a8a6a;*/
+    padding: 10px;
+}
+
+body {
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    max-width: 870px;
+    margin: auto;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, .8);
+}
+
+h1 {
+    background-image: url("logo.png");  /* 257x67 */
+    background-repeat: no-repeat;
+    padding-left: 370px;
+    height: 90px;
+    font-size: 32px;
+    font-family: serif;
+}
+
+h3 {
+    background: #e7ecee;
+    margin: 50px -20px 13px -20px;
+    padding: 2px 25px;
+    border-color: #b7bcbe;
+    border-style: solid;
+    border-width: 1px 0;
+}
+
+ul {
+    margin: 8px;
+}
+
+iframe {
+    border-radius: 5px;
+}
+
+.title {
+    display: block;
+    margin: 10px 0 3px 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.side-pic {
+    display: inline-block;
+    float: right;
+    width: 500px;
+    height: 245px;
+}
+
+.side-pic img {
+    float: right;
+    margin: 0 -20px 20px 20px;
+    border-radius: 7px 0 0 7px;
+    
+    transition: .3s;
+    -moz-transition: .5s;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+}
+
+.side-pic img:hover {
+    -ms-transform: translate(-20px, -50px);
+    -moz-transform: translate(-20px, -50px);
+    -webkit-transform: translate(-20px, -50px);
+    -o-transform: translate(-20px, -50px);
+    transform: translate(-20px, -50px);
+    
+    width: 716px;
+    margin: 0 0 -400px 0;
+    
+    border-radius: 10px;
+}
+
+#navbar {
+    margin: 0 -20px;
+    padding: 10px 20px 5px 20px;
+    color: #111;
+    text-align: center;
+    background: #e7eeec;
+    border-color: #b7bcbe;
+    border-style: solid;
+    border-width: 1px 0;
+}
+
+#navbar a {
+    text-decoration: none;
+    border-radius: 4px 0 10px 1px;
+    color: #111;
+    border: 1px solid #111;
+    padding: 2px 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+    
+    transition: 1.5s;
+    -moz-transition: 1.5s;
+    -webkit-transition: 1.5s;
+    -o-transition: 1.5s;
+}
+
+#navbar a:hover {
+    color: #eee;
+    background-color: #111;
+}
+
+#footer {
+    background: #e7ecee;
+    border-color: #b7bcbe;
+    border-style: solid;
+    border-width: 1px 0;
+    border-radius: 0 0 5px 5px;
+    
+    padding: 15px;
+    font-size: 90%;
+    text-align: center;
+    margin: 15px -20px -10px -20px;
+}
