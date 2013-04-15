@@ -1,10 +1,11 @@
 html {
-    color: #161616;
-    background: #eee7ec;
-    /*background: #9a8a6a;*/
-    padding: 10px;
+        color: #161616;
+        background: rgb(208, 208, 208);
+        background-image: url('3dpl_bg.jpg');
+        background-repeat: no-repeat;
+        padding: 10px;
+        background-size:100%;
 }
-
 body {
     padding: 10px 20px;
     background: #fff;
