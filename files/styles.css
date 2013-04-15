@@ -14,7 +14,7 @@ body {
     font-size: 15px;
     max-width: 870px;
     margin: auto;
-    box-shadow: 0 0 6px 2px rgba(0, 0, 0, .8);
+    box-shadow: 0 0 10px 2px rgba(22, 22, 188, .3);
 }
 
 h1 {
