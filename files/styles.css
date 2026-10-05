@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-    background-image: url("logo.png");  /* 257x67 */
+    /*background-image: url("logo.png");  /* 257x67 */
     background-repeat: no-repeat;
     padding-left: 370px;
     height: 90px;
